@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <!-- ==========FAVICON========== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/img/favicon/favicon-16x16.png">
+
+    <!-- ==========CSS========== -->
+    <link rel="stylesheet" href="asset/main.css">
+
+    <!-- ==========REMIXICON========= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!-- ==========SCROLLREVEAL========= -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <heade id="header" class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">John Cena</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="nav__link">My Info</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </heade>
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="asset/img/John Img.png" alt="Image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">JOHN <br> CENA</h1>
+                    <h3 class="home__profession">Web Developer</h3>
+                </div>
+
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+
+                    <span class="home__scroll-text">
+                        Recent Works
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="work__title section__title">Recent Work</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Resturant Website</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in the portfolio
+                        </p>
+
+                        <img src="asset/img/Work Images/pexels-igor-starkov-233202-1307698.jpg" alt="image"
+                            class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Design Of Products</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in the portfolio
+                        </p>
+
+                        <img src="asset/img/Work Images/pexels-jayoke-851555.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Barbershop Website SEO</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in the portfolio
+                        </p>
+
+                        <img src="asset/img/Work Images/pexels-padrinan-1111367.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Coffee Website</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in the portfolio
+                        </p>
+
+                        <img src="asset/img/Work Images/pexels-thgusstavo-1813272.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Panel Design</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in the portfolio
+                        </p>
+
+                        <img src="asset/img/Work Images/pexels-tranmautritam-326514.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+
+            <div class="info__container container grid">
+
+                <!-- About -->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">About Me</h3>
+                        <p class="about__description">Passionate about creating <b>websites with beautiful
+                                interface</b>. L have years of experience in <b>Web Development</b> with several
+                            projects completed.</p>
+
+                        <a href="asset/download/_Adham Dannaway - Practical UI (2022) - libgen.li.pdf" download=""
+                            target="_blank" class="button about__button">Download CV</a>
+                    </div>
+
+                    <img src="asset/img/John Img.png" alt="image" class="about__img">
+                </div>
+
+                <!-- Experience -->
+                <div class="experience">
+                    <h3 class="info__title">Experience</h3>
+                    <div class="experience__content grid">
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Discord</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Web Product Designer</h3>
+                                <span class="experience__date">05/23 - Present</span>
+                                <p class="experience__description">Short description of the work you door did in the
+                                    company.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Google</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Web Developer</h3>
+                                <span class="experience__date">05/23 - Present</span>
+                                <p class="experience__description">Short description of the work you door did in the
+                                    company.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Adobe</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Web Designer</h3>
+                                <span class="experience__date">05/23 - Present</span>
+                                <p class="experience__description">Short description of the work you door did in the
+                                    company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="skill">
+                    <h3 class="info__title">Skills</h3>
+
+                    <div class="skills__content grid">
+                        <div class="skill__box">
+                            <img src="asset/img/Skills/HTML.png" alt="ICON" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+
+                        <div class="skill__box">
+                            <img src="asset/img/Skills/CSS.png" alt="ICON" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+
+                        <div class="skill__box">
+                            <img src="asset/img/Skills/JS.png" alt="ICON" class="skills__img">
+                            <span class="skills__name">JS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
+
+            <div class="services__container container grid">
+
+                <article class="services__card">
+                    <i class="ri-code-box-line services__icon"></i>
+                    <h3 class="services__title">Web Developer</h3>
+                    <p class="services__description">
+                        Short description of the service offered to users to obtain a personalized project
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pencil-line services__icon"></i>
+                    <h3 class="services__title">Web Development</h3>
+                    <p class="services__description">
+                        Short description of the service offered to users to obtain a personalized project
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pencil-ruler-line services__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">
+                        Short description of the service offered to users to obtain a personalized project
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-seo-line services__icon"></i>
+                    <h3 class="services__title">Seo (Web Pages)</h3>
+                    <p class="services__description">
+                        Short description of the service offered to users to obtain a personalized project
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+            <div class="contact__container container grid">
+
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" id="name" placeholder="Names" class="contact__input" required>
+                        <input type="email" name="user_email" id="email" placeholder="Email" class="contact__input" required>
+                    </div>
+
+                    <textarea name="user_message" id="message" placeholder="message" class="contact__input contact__area" required></textarea>
+
+                    <button type="submit" class="button contact__button">Send Message</button>
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__social grid">
+
+                    <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                        <span>Linkedin</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==========FOOTER========== -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+    
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+    
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+    
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Bedimcode
+            </span>
+        </div>
+    </footer>
+
+    <!-- ==========SCROLL UP========== -->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+    <!-- ==========EMAIL JS========== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- ==========MAIN JS========== -->
+    <script src="asset/main.js"></script>
+
+</body>
+
+</html>
